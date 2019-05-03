@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11217609700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User is able to search Vehicle insurance",
+        "description": "",
+        "id": "vehicle-search;user-is-able-to-search-vehicle-insurance;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266155800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homePage",
+            "match": {
+              "location": "VehicleExistStepDef.enterInhomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376337300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input valid vehicle registration as \"OV12UYY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV12UYY",
+                  "offset": 42
+                }
+              ],
+              "location": "VehicleExistStepDef.enterVehicleReg(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 303548200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see outcome as \"Result for : OV12UYY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Result for : OV12UYY",
+                  "offset": 28
+                }
+              ],
+              "location": "VehicleExistStepDef.seeResult(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13585002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is able to search Vehicle insurance",
+        "description": "",
+        "id": "vehicle-search;user-is-able-to-search-vehicle-insurance;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18137300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homePage",
+            "match": {
+              "location": "VehicleExistStepDef.enterInhomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462764400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input valid vehicle registration as \"SE53PWZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SE53PWZ",
+                  "offset": 42
+                }
+              ],
+              "location": "VehicleExistStepDef.enterVehicleReg(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241095400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see outcome as \"Sorry record not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sorry record not found",
+                  "offset": 28
+                }
+              ],
+              "location": "VehicleExistStepDef.seeResult(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle Search",
+    "description": "",
+    "id": "vehicle-search",
+    "keyword": "Feature",
+    "uri": "VehicleExist.feature"
+  }
+]

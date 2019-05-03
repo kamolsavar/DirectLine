@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.470651">
+<testcase classname="Vehicle Search" name="User is able to search Vehicle insurance" time="12.163651">
+<system-out><![CDATA[Given user is on homePage...................................................passed
+When user input valid vehicle registration as "OV12UYY".....................passed
+Then user should see outcome as "Result for : OV12UYY"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search" name="User is able to search Vehicle insurance 2" time="14.307">
+<system-out><![CDATA[Given user is on homePage...................................................passed
+When user input valid vehicle registration as "SE53PWZ".....................passed
+Then user should see outcome as "Sorry record not found"....................passed
+]]></system-out>
+</testcase>
+</testsuite>
